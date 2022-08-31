@@ -29,8 +29,12 @@ import {
           >
             <Text>
               © {new Date().getFullYear()} Original designs by
-              <Link ml={1} href="https://twitter.com/pablostanley">
+              <Link ml={1} href="https://twitter.com/pablostanley" color={'green.400'}>
                 Pablo Stanley 🎨
+              </Link>
+              | Developed by 
+              <Link ml={1} href="https://twitter.com/__andiazo__" color={'green.400'}>
+                Andrés Díaz
               </Link>
             </Text>
           </Container>
